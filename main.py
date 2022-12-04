@@ -7,3 +7,4 @@ data = response.json()
     
 for user in data['results']:
    print(user['name']['first'])
+   print(user['name']['last'])
