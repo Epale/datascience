@@ -19,6 +19,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 
 print(X_train)
 print(y_train)
-print(X_test) 
+print(X_test)  
 print(y_test)
 
