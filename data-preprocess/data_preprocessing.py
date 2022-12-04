@@ -8,7 +8,7 @@ import pandas as pd
 
 # Importing the dataset
 # C:\Users\gfoxd\datascience\Data.csv
-dataset = pd.read_csv('C:\Users\gfoxd\datascience\Data.csv')    
+dataset = pd.read_csv('C:\Users\gfoxd\datascience\data-preprocess\Data.csv')    
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
  
