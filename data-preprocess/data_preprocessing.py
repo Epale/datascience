@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
+# C:\Users\gfoxd\datascience\Data.csv
 dataset = pd.read_csv('Data.csv')    
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
@@ -20,3 +21,4 @@ print(X_train)
 print(y_train)
 print(X_test)
 print(y_test)
+
