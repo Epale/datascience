@@ -2,7 +2,7 @@
 # Data Preprocessing Template
 
 # Importing the libraries
-import numpy as np 
+import numpy as np  
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -18,3 +18,5 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 
 print(X_train)
 print(y_train)
+print(X_test)
+print(y_test)
